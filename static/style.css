@@ -4,7 +4,7 @@ body {
     color: #444;
     padding: 0;
     margin: 0;
-    font: 16px/1.62 "Rosario", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font: 22px/1.62 "Rosario", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 h1, h2, h3, h4, h5, strong {
     font-family: "PT Sans", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
@@ -155,8 +155,8 @@ hr.end {
     color: #fff;
 }
 .container {
-    max-width: 560px;
-    *width: 560px;
+    max-width: 700px;
+    *width: 700px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -226,6 +226,24 @@ hr.end {
         position: absolute;
         top: 0;
         right: 10px;
+    }
+    body {
+        font: 16px/1.62 "Rosario", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+    }
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 16px;
+        margin: 45px 0 15px;
+    }
+    h3 {
+        font-size: 13px;
+        margin: 30px 0 10px;
     }
 }
 #main {
