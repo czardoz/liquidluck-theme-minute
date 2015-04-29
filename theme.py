@@ -12,6 +12,9 @@ author = {
 lang = 'en'
 
 navigation = [
+    {'name': 'Home', 'link': '/'},
+    {'name': 'Contact', 'link': '/contact.html'},
+    {'name': 'About', 'link': '/about.html'},
 ]
 
 twitter = 'czard0z'
