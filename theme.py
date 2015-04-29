@@ -1,23 +1,21 @@
 #!/usr/bin/env python
 
-name = 'moment'
-version = '1.0'
-website = 'https://github.com/lepture/liquidluck-theme-moment'
+name = 'minute'
+version = '0.1'
+website = 'https://github.com/czardoz/liquidluck-theme-minute'
 author = {
-    'name': 'Hsiaoming Yang',
-    'website': 'http://lepture.com',
+    'name': 'Aniket Panse',
+    'website': 'http://aniketpanse.in',
 }
 
 
 lang = 'en'
 
 navigation = [
-    {'title': 'Home', 'link': '/'},
-    {'title': 'About', 'link': '/about.html'},
 ]
 
-twitter = 'lepture'
-github = None
+twitter = 'czard0z'
+github = 'czardoz'
 disqus = None
 analytics = None
 
