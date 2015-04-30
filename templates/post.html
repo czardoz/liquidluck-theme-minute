@@ -6,6 +6,10 @@
 {% if post.description %}<meta name="description" content="{{post.description }}" />{% endif %}
 {% endblock %}
 
+{% block backgroundimg %}
+    <div class="post-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25)), url({{ post.bg }});"></div>
+{% endblock %}
+
 {% block main -%}
 <div class="hentry"{%if post.review%} itemscope itemtype="http://data-vocabulary.org/Review"{%endif%}>
     <h1 class="entry-title">{{post.title}}</h1>
