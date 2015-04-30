@@ -218,37 +218,7 @@ hr.end {
     margin-top: 8px;
     font-size: 16px;
 }
-@media (max-width: 480px) {
-    #brand a {
-        color: rgba(0,0,0,0.8);
-    }
-    #nav {
-        position: absolute;
-        top: 0;
-        right: 10px;
-    }
-    body {
-        font: 16px/1.62 "Rosario", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
-    }
-    .container {
-        padding: 10px;
-    }
-    h1 {
-        margin-top: 0;
-        font-size: 20px;
-    }
-    h2 {
-        font-size: 16px;
-        margin: 45px 0 15px;
-    }
-    h3 {
-        font-size: 13px;
-        margin: 30px 0 10px;
-    }
-    time.updated {
-        display: none;
-    }
-}
+
 #main {
     clear: both;
 }
@@ -373,4 +343,39 @@ hr.end {
 
 #disqus_thread {
     margin-top: 50px;
+}
+
+@media (max-width: 480px) {
+    #brand a {
+        color: rgba(0,0,0,0.8);
+    }
+    #nav {
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+    body {
+        font: 16px/1.62 "Rosario", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+    }
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 16px;
+        margin: 45px 0 15px;
+    }
+    h3 {
+        font-size: 13px;
+        margin: 30px 0 10px;
+    }
+    time.updated {
+        display: none;
+    }
+    .post-image {
+        height: 200px;
+    }
 }
