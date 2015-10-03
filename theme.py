@@ -20,7 +20,8 @@ navigation = [
 twitter = 'czard0z'
 github = 'czardoz'
 disqus = None
-analytics = 'UA-62448892-1'
+# analytics = 'UA-62448892-1'
+clicky = '100883275'
 
 allow_comment_on_secret_post = False
 
