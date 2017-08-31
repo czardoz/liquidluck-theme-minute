@@ -4,8 +4,22 @@
         <meta charset="UTF-8">
         <title>{% block title %}{{site.name}}{% endblock %}</title>
         <script>if (top !== self) top.location = self.location;</script>
-        <meta name="description" content="I am Aniket, and you should see this." />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta name="description" value="Aniket is a Software Engineer, with a keen interest in Computer Security." />
+
+        <!-- URL unfurling metadata - Facebook Open Graph format -->
+        <meta property="og:title" content="Aniket Panse" />
+        <meta property="og:description" content="Aniket is a Software Engineer, with a keen interest in Computer Security." />
+        <meta property="og:site_name" content="Aniket Panse" />
+
+        <!-- URL unfurling metadata - Twitter card tags -->
+        <meta name="twitter:title" value="Aniket Panse" />
+        <meta name="twitter:description" value="Aniket is a Software Engineer, with a keen interest in Computer Security." />
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:domain" value="https://aniketpanse.in/" />
+
         <link rel="stylesheet" href="{{static_url('style.css')}}" />
         <link rel="stylesheet" href="{{static_url('pygments.css')}}" />
         {% if site.feed -%}
